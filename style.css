@@ -22,6 +22,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%)
 }
 
 main {
@@ -36,7 +37,7 @@ main {
     max-width: 650px;
     background-color: #fff;
     height: 100%;
-    padding: 20px;
+    padding: 35px;
     border-radius: 15px;
 
 }
@@ -55,4 +56,72 @@ figure > img {
 
 .section-title > h1, h2 {
     font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+
+.section-title > h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.prepation-time {
+    padding: 20px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+
+.prepation-time > h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+.prepation-time > ul {
+    list-style: none;
+}
+
+.prepation-time > ul > li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.prepation-time > ul {
+    list-style: disc;
+}
+
+.ingredients > ul{
+    list-style: none;
+}
+
+.ingredients > ul > li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients > ul {
+    list-style: disc;
+}
+
+.instructions > ol{
+    list-style: none;
+}
+
+.instructions > ol > li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.instructions > ol {
+    list-style: decimal;
+}
+
+.section-title > h1 {
+    font-size: 2.2rem;
+    color: hsl(24, 5%, 18%);
+    font-weight: 550;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.section-title > p {
+    margin-bottom: 30px;
+}
+
+p, li {
+    font-size: 0.9rem;
 }
